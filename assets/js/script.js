@@ -1,6 +1,6 @@
 function menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu');
-    let icon = document.querySelector('.icon');
+    let menuMobile = document.getElementById('mobile-menu');
+    let icon = document.getElementById('icon');
 
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
